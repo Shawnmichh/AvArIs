@@ -3,8 +3,8 @@
 #include "esp_http_server.h"
 
 // --- Configuration ---
-const char* ssid = "Ganeshgj";
-const char* password = "shawn123";
+const char* ssid = "";
+const char* password = "";
 
 // STATIC IP CONFIGURATION
 IPAddress local_IP(192, 168, 1, 40);
