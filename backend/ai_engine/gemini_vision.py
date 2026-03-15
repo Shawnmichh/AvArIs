@@ -26,7 +26,7 @@ class GeminiVisionAnalyzer:
     def _configure_gemini(self):
         """Configure Gemini Vision API"""
         # Try hardcoded key first (for development)
-        hardcoded_key = "AIzaSyC4sDthoiC6u7Jm3qH0nfnY9wiAM6oNJ18"
+        hardcoded_key = ""
         
         api_key = None
         if hardcoded_key and hardcoded_key not in ["", "YOUR_API_KEY_HERE"]:
