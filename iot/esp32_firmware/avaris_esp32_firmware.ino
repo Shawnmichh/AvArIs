@@ -4,8 +4,8 @@
 
 // --- Configuration ---
 // Replace with your Network credentials
-const char* ssid = "Ganeshgj";
-const char* password = "shawn123";
+const char* ssid = "";
+const char* password = "";
 
 // Replace with your Computer's IP address (find it using 'ipconfig' on Windows)
 const char* serverUrl = "http://192.168.1.37:8000/api/sensor-data"; 
