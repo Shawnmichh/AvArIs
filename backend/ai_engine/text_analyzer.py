@@ -24,7 +24,7 @@ class GeminiTextAnalyzer:
     def _configure_gemini(self):
         """Configure Gemini API"""
         # Try hardcoded key first (for development)
-        hardcoded_key = "AIzaSyCkGv46U8X2oSEaIr68HWSmdocqBefUDvI"
+        hardcoded_key = ""
         
         api_key = None
         if hardcoded_key and hardcoded_key not in ["", "YOUR_API_KEY_HERE"]:
